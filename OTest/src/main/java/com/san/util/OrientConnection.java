@@ -1,4 +1,4 @@
-package com.san;
+package com.san.util;
 
 import com.orientechnologies.orient.core.db.ODatabaseSession;
 import com.orientechnologies.orient.core.db.OrientDB;
