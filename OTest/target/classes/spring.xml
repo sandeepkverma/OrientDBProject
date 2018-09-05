@@ -21,7 +21,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean> -->
 	<bean id="orientConnection"
-		class="com.san.OrientConnection">
+		class="com.san.util.OrientConnection">
 		<constructor-arg name="url" value="${orient.url}" />
 		<constructor-arg name="databaseName" value="${orient.databaseName}" />
 		<constructor-arg name="userName" value="${orient.userName}" />
